@@ -172,3 +172,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Project-specific: Don't track raw datasets or generated plots
+data/
+*.csv
+
+# Avoid committing this auto-updating experiment log
+experiments/experiments.csv
+
+# Plots and visuals (generated at runtime)
+results/
+*.png
+
+# Local Jupyter backup files
+notebooks/*.ipynb_checkpoints/
+
